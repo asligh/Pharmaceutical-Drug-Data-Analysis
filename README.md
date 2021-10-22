@@ -1,6 +1,6 @@
-# Pharmaceutical Drug Regimine Data Analysis
+# Pharmaceutical Drug Data Analysis
 
-![Laboratory](Images/Splash.png)
+![Laboratory](Images/Splash.jpg)
 
 ## Overview
 
