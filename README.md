@@ -8,7 +8,7 @@ In the following study, 249 mice identified with squamous cell carcinoma (SCC) t
 
 ## Methodology
 
-* Before analysis began, test data was analyzed for duplicative records which were removed to ensure data integrity.  
+* Test data was analyzed for duplicative records which were removed to ensure data integrity.  
 
 * Use the cleaned data for the remaining steps.
 
