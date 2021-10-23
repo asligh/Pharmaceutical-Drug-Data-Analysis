@@ -8,74 +8,52 @@ In the following study, 249 mice identified with squamous cell carcinoma (SCC) t
 
 ## Methodology
 
-* Test data was analyzed for duplicative records which were removed to ensure data integrity.  
+* Test data was analyzed for duplicative records which were removed to ensure data integrity.
 
-* Use the cleaned data for the remaining steps.
+![Laboratory](Images/DuplicatedMouseID.jpg)
 
-* Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+* Summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
-* Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of timepoints for all mice tested for each drug regimen throughout the course of the study.
+![Laboratory](Images/SummaryStatistics.jpg)
 
-    **NOTE:** These plots should look identical.
+* Bar plot showing the total number of timepoints for all mice tested for each drug regimen throughout the course of the study.
 
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+![Laboratory](Images/DrugRegimenVsTimepointCount.jpg)
 
-    **NOTE:** These plots should look identical.
+* Pie plot showing distribution of female or male mice in the study.
 
-* Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+![Laboratory](Images/MaleVsFemaleMouseCounts.jpg)
 
-* Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
+* The following are the final tumor volumes of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin with IQR caculations to identify potential outliers across all four treatment regimens.
 
-  **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
+### Capomulin
 
-* Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
+![Laboratory](Images/CapomulinResults.jpg)
 
-* Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
+### Ramicane
 
-* Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+![Laboratory](Images/RamicaneResults.jpg)
 
-* Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+### Infubinol
 
-Here are some final considerations:
+![Laboratory](Images/InfubinolResults.jpg)
 
-* You must use proper labeling of your plots, to include properties such as: plot titles, axis labels, legend labels, _x_-axis and _y_-axis limits, etc.
+### Ceftamin
 
-* See the [starter workbook](Pymaceuticals/pymaceuticals_starter.ipynb) for help on what modules to import and expected format of the notebook.
+![Laboratory](Images/CeftaminResults.jpg)
 
-## Hints and Considerations
+* Box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
-* Be warned: These are very challenging tasks. Be patient with yourself as you trudge through these problems. They will take time and there is no shame in fumbling along the way. Data visualization is equal parts exploration, equal parts resolution.
+![Laboratory](Images/BoxPlot.jpg)
 
-* You have been provided a starter notebook. Use the code comments as a reminder of steps to follow as you complete the assignment.
+* Line plot of tumor volume vs. time point for non-specific test subject
 
-* Don't get bogged down in small details. Always focus on the big picture. If you can't figure out how to get a label to show up correctly, come back to it. Focus on getting the core skeleton of your notebook complete. You can always revisit old problems.
+![Laboratory](Images/MouseSubjectLineGraph.jpg)
 
-* While you are trying to complete this assignment, feel encouraged to constantly refer to Stack Overflow and the Pandas documentation. These are needed tools in every data analyst's tool belt.
+* Scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen
 
-* Remember, there are many ways to approach a data problem. The key is to break up your task into micro tasks. Try answering questions like:
+![Laboratory](Images/Scatterplot.jpg)
 
-  * How does my DataFrame need to be structured for me to have the right _x_-axis and _y_-axis?
+* Correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. 
 
-  * How do I build a basic scatter plot?
-
-  * How do I add a label to that scatter plot?
-
-  * Where would the labels for that scatter plot come from?
-
-  Again, don't let the magnitude of a programming task scare you off. Ultimately, every programming problem boils down to a handful of bite-sized tasks.
-
-* Get help when you need it! There is never any shame in asking. But, as always, ask a _specific_ question. You'll never get a great answer to "I'm lost."
-
-## Rubric
-
-[Unit 5 Rubric - Matplotlib Homework - The Power of Plots](https://docs.google.com/document/d/1ZZ0lFGHqKwVdqjTCfynY2FSiswuOMBVi9An7oWeg344/edit?usp=sharing)
-
-- - -
-
-## References
-
-Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+![Laboratory](Images/ScatterWithLineOfBestFit.jpg)
